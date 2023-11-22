@@ -4,7 +4,7 @@ from zipfile import ZipFile
 from CNNClassifier import logger
 from pathlib import Path
 from tqdm import tqdm
-from CNNClassifier.entity import DataIngestionConfig
+from CNNClassifier.entity.config_entity import DataIngestionConfig
 from CNNClassifier.utils import utils
 
 
