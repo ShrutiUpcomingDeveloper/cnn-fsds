@@ -1,5 +1,5 @@
 from pathlib import Path
-from deepClassifier.entity import PrepareBaseModelConfig
+from CNNClassifier.entity import PrepareBaseModelConfig
 import tensorflow as tf
 
 class PrepareBaseModel:
@@ -58,5 +58,4 @@ class PrepareBaseModel:
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
         model.save(path)
-
 
